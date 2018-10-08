@@ -9,5 +9,6 @@ class Song < ActiveRecord::Base
   def drake_made_this
     self.artist = Artist.create(name: "Drake")
     self.save
+    self.artist
   end
 end
