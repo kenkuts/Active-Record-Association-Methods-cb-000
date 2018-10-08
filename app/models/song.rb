@@ -7,6 +7,5 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    puts self.artist
-  end
+    self  end
 end
